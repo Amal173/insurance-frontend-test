@@ -1,0 +1,93 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.insurance-form {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .error-message {
+      color: red;
+    }
+
+    .form-control {
+      text-align: left;
+      margin-bottom: 15px;
+
+      .select-radio {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        flex-direction: column;
+
+        .radio-btn {
+          display: flex;
+          justify-content: space-around;
+
+          p {
+            width: 50%;
+          }
+
+          input {
+            display: flex;
+
+          }
+        }
+      }
+
+      label {
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+
+      input,
+      select,
+      textarea {
+        margin-top: 5px;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .qualification-input {
+        display: flex;
+        flex-direction: column;
+
+        .row {
+          display: flex;
+          margin-top: 10px;
+
+
+          p {
+            margin-right: 8px;
+          }
+
+          input {
+            margin-right: 4px;
+          }
+        }
+      }
+
+      button {
+        background-color: #c9d4c9;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    }
+  }
+}

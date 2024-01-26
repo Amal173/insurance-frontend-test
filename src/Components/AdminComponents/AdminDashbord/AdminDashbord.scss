@@ -1,0 +1,31 @@
+.admin-dashbord {
+
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+
+        .status-buttons {
+
+            button {
+                padding: 20px 30px;
+                border: none;
+                font-size: 15px;
+                font-weight: 700;
+
+                &.active {
+                    background-color: rgb(41, 216, 11);
+                    color: white;
+                }
+            }
+        }
+
+        .add-customer-form {
+            position: absolute;
+            top: 100px;
+            left: 33%;
+            background-color: aliceblue;
+        }
+    }
+
+
+}

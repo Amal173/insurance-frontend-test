@@ -1,0 +1,73 @@
+.status-tabs {
+  margin: 20px;
+}
+.status-tabs .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.status-tabs .cards .title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  padding: 10px 20px;
+}
+.status-tabs .cards .title p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+}
+.status-tabs .cards .proposal-card {
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  align-items: center;
+}
+.status-tabs .cards .proposal-card p {
+  margin: 5px 0;
+  text-align: left;
+}
+.status-tabs .cards .proposal-card i {
+  padding: 15px 5px;
+  border-radius: 15px;
+  color: rgb(30, 42, 74);
+  background-color: #ffffff;
+}
+.status-tabs .loading {
+  color: blue;
+  font-weight: bold;
+}
+.status-tabs .error {
+  color: red;
+  font-weight: bold;
+}
+
+.status-tabs {
+  margin: 20px;
+}
+.status-tabs .title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.status-tabs .title .proposal-card {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.status-tabs .title .proposal-card p {
+  margin: 5px 0;
+}
+.status-tabs .loading {
+  color: blue;
+  font-weight: bold;
+}
+.status-tabs .error {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.ThreeDotResponsebun {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+
+    .fa-xmark {
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    .modal-title {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+    }
+
+    .View-details,
+    .status-aprove,
+    .status-complete {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 10px;
+
+        i {
+            margin-right: 10px;
+        }
+
+        span {
+            font-size: 1rem;
+            color: #333;
+        }
+    }
+
+    .View-details {
+        color: #e31d0b;
+    }
+
+    .status-aprove {
+        color: #28a745;
+    }
+
+    .status-complete {
+        color: #17a2b8;
+    }
+}

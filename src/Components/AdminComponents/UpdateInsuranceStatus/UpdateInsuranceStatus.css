@@ -1,0 +1,59 @@
+.update-warning-Modal {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+  z-index: 2;
+  top: 0%;
+  width: 600px;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.update-warning-Modal .modalFirstRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.update-warning-Modal .modalFirstRow .CloseCrossButn {
+  font-size: 24px;
+}
+
+.update-warning-Modal .warningContent {
+  display: flex;
+  justify-content: center;
+}
+
+.update-warning-Modal .warningContent span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.update-warning-Modal .modalButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.update-warning-Modal .modalButtons button {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #e62e00;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

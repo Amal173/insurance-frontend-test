@@ -1,0 +1,89 @@
+.status-tabs {
+    margin: 20px;
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .title {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr .5fr;
+
+            padding: 10px 20px;
+
+            p {
+                text-align: left;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+        .proposal-card {
+            padding: 10px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr .5fr;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+            align-items: center;
+
+            p {
+                margin: 5px 0;
+                text-align: left;
+            }
+
+            i {
+                padding: 15px 5px;
+                border-radius: 15px;
+                color: rgb(30, 42, 74);
+                background-color: #ffffff;
+
+            }
+        }
+    }
+
+    .loading {
+        color: blue;
+        font-weight: bold;
+    }
+
+    .error {
+        color: red;
+        font-weight: bold;
+    }
+}
+
+
+.status-tabs {
+    margin: 20px;
+
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .proposal-card {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+
+            p {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .loading {
+        color: blue;
+        font-weight: bold;
+    }
+
+    .error {
+        color: red;
+        font-weight: bold;
+    }
+}
